@@ -31,12 +31,12 @@ logger = logging.getLogger(__name__)
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8661154831:AAHK-fwPe6_Fmy2qgTgQp2HRF3WFTMrbBnc")
 MONGODB_URI = os.getenv("https://mangob.st/attackHEX.09.01")
 DATABASE_NAME = os.getenv("mxteam", "attack_bot")
 API_URL = os.getenv("https://kimstress.st")
 API_KEY = os.getenv("157c5d71b01f0ebb3f606860fb856c43c47125c7a94e0ba015bd15c59df4e2c1")
-ADMIN_IDS = [int(id.strip()) for id in os.getenv("ADMIN_IDS", "1793697840").split(",")]
+ADMIN_IDS = [int(id.strip()) for id in os.getenv("8874767254", "1793697840").split(",")]
 
 # Blocked ports (must match backend)
 BLOCKED_PORTS = {8700, 20000, 443, 17500, 9031, 20002, 20001}
