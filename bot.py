@@ -34,8 +34,8 @@ load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 MONGODB_URI = os.getenv("MONGODB_URI")
 DATABASE_NAME = os.getenv("DATABASE_NAME", "attack_bot")
-API_URL = os.getenv("API_URL")
-API_KEY = os.getenv("API_KEY")
+API_URL = os.getenv("https://kimstress.st")
+API_KEY = os.getenv("157c5d71b01f0ebb3f606860fb856c43c47125c7a94e0ba015bd15c59df4e2c1")
 ADMIN_IDS = [int(id.strip()) for id in os.getenv("ADMIN_IDS", "1793697840").split(",")]
 
 # Blocked ports (must match backend)
